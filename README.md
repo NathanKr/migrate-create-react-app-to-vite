@@ -34,6 +34,16 @@ npm run dev
 ```
 </li>
 <li>remove _index.html , update _src in index.html to src, remove src and rename _src to src</li>
+<li>changes to index.html : added after the video was out 
+<p>remove lines that relate to %PUBLIC_URL% because this does not exist in vite</p>
+<p>add
+
+```html
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+```
+
+</p>
+</li>
 <li>perform the following in target directory
 
 ```
