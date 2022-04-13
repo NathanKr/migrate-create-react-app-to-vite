@@ -1,6 +1,13 @@
 <h2>Introduction</h2>
 React vite project is much faster than create-react-app, but what does it take to migrate create-react-app to vite?
 
+
+<h2>Source directory</h2>
+This is the create-react-app project of my personal web site with the following tag 0.5 <a href='https://github.com/NathanKr/nathan-krasney-com/releases/tag/0.5'>here</a>
+
+<h2>Target directory</h2>
+The resulting vite react project
+
 <h2>Migration process</h2>
 <ol>
 <li>Create a vite react project using
@@ -11,7 +18,7 @@ npm init vite@latest
 react
 cd target
 npm i
-nom run dev
+npm run dev
 ```
 </li>
 
@@ -49,8 +56,4 @@ npm run dev
 </ol>
 
 
-<h2>Source directory</h2>
-This is the create-react-app project of my personal web site with the following tag 0.5 <a href='https://github.com/NathanKr/nathan-krasney-com/releases/tag/0.5'>here</a>
 
-<h2>Target directory</h2>
-The resulting vite react project
