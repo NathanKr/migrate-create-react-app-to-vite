@@ -1,7 +1,7 @@
 // import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./App.css";
-import Top from "./Top.jsx";
+import Top from "./Top.js";
 import { BrowserRouter } from "react-router-dom";
 import Footer from "./Footer";
 
